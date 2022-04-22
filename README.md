@@ -65,5 +65,26 @@ printf("Questo è un errore, manca punto e virgola sopra\n");
 ```    
 
 
+## Esercizi da fare    
+1. Predisporre un programma che, utilizzando una sola istruzione printf, visualizzi   
+```  
+Prove 
+  Tecniche di 
+    visualizzazione 
+```   
+Provare ad utilizzre le sequenze di escape:    
+```  
+\n va a linea nuova
+\t salta di una tabulazione
+\b ritorna un carattere indietro (backspace)
+\a suona il campanello della macchina
+\\ stampa il carattere \
+\" stampa il carattere "   
+```  
 
+2. Codificare un programma che calcoli la seguente espressione: y=xa+b, dove x è uguale a 5, a è uguale a 18 e b è
+uguale a 7; x, a, e b devono essere dichiarate come variabili intere. Si visualizzi infine il valore finale.   
+
+
+3. Riprendere il codice della lezione fatta (il main.c) ed effettuare i controlli per verificare quando il risultato dell'area va in OVERFLOW. 
 
