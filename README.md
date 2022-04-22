@@ -1,6 +1,6 @@
 # Lezione 02  
 In questa lezione abbiamo mostrato le istruzioni condizionali (if / else) con i relativi blocchi.  Di seguito una lista di consigli utili ind
-## Consigli a valle dell'esame   
+## Consigli a valle della lezione
 ### 1. I blocchi di codice contengono parentesi GRAFFE, le funzioni contengono e le istruzioni condizionali parentesi TONDE    
 Esempio:
 ```  
