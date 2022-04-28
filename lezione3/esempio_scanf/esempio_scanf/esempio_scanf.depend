@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651162489 source:c:\users\gper4\documents\elementidiinformatica\esempio_scanf\esempio_scanf\main.c
+	<stdio.h>
+	<stdlib.h>
+
