@@ -5,9 +5,20 @@
 
 int main()
 {
+
 	int altezzaCiroInCentimetri;
     printf("Quanto e' alto Ciro?\n");
 	scanf("%d", &altezzaCiroInCentimetri);
-	// COMPLETARE
+	// == -> VUOL DIRE UGUAGLIANZA
+	// != .> VUOL DIRE DISUGUAGLIANZA
+	if (altezzaCiroInCentimetri != ALTEZZA_VERA_CIRO)
+    {
+
+        printf("Hai indovinato altezza");
+    }
+    else
+    {
+        printf("Hai sbagliato, riprova");
+    }
     return 0;
 }
