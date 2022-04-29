@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//#define ALTEZZA_VERA_CIRO_METRI 1.86
+
 
 int main()
 {
