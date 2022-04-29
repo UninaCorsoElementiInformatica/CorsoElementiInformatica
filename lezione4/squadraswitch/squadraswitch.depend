@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651248600 source:c:\users\gper4\git\unina\elementiinformatica\corsoelementiinformatica\lezione4\squadraswitch\main.c
+	<stdio.h>
+	<stdlib.h>
+
