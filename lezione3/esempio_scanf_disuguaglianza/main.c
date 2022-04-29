@@ -11,7 +11,7 @@ int main()
 	scanf("%d", &altezzaCiroInCentimetri);
 	// == -> VUOL DIRE UGUAGLIANZA
 	// != .> VUOL DIRE DISUGUAGLIANZA
-	if (altezzaCiroInCentimetri == ALTEZZA_VERA_CIRO)
+	if (altezzaCiroInCentimetri != ALTEZZA_VERA_CIRO)
     {
 
         printf("Hai indovinato altezza");
