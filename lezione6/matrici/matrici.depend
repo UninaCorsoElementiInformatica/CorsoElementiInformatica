@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651852534 source:c:\users\gper4\git\unina\elementiinformatica\corsoelementiinformatica-git\lezione6\matrici\main.c
+	<stdio.h>
+	<stdlib.h>
+
