@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1651854087 source:c:\users\gper4\git\unina\elementiinformatica\corsoelementiinformatica-git\lezione6\stampa_vettore\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stampa.h"
+
+1651854129 c:\users\gper4\git\unina\elementiinformatica\corsoelementiinformatica-git\lezione6\stampa_vettore\stampa.h
+

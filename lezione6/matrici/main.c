@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 
-
 int main()
 {
 
@@ -15,7 +14,7 @@ int main()
     for (i = 0; i < DIM_RIGA; i++)
         for(j = 0; j < DIM_COL; j++)
         {
-            printf("Inserisci riga %d colonna %d\n", i, j);
+            printf("Inserisci riga %d colonna %d\n", i+1, j+1);
             scanf("%d", &matrice[i][j]);
 
         }
