@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653047224 source:c:\users\gper4\git\unina\elementiinformatica\corsoelementiinformatica-git\lezione7\lettura_file\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

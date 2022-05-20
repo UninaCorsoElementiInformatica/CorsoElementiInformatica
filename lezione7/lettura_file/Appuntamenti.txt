@@ -1,0 +1,3 @@
+Data,Ora,Descrizione
+12/12/2021, 12:30, Appuntamento dal dentista
+14/01/2022, 09:30, Revisione macchina
