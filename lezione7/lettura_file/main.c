@@ -4,19 +4,20 @@
 
 #define MAX_LINE_LENGTH 80
 
-int main(int argc, char **argv)
+void tmp(int argc, int* argv)
 {
-    char *path;
+        char *path;
     char line[MAX_LINE_LENGTH] = {0};
     unsigned int line_count = 0;
 
-   // if (argc < 1)
-     //   return EXIT_FAILURE;
+    if (argc < 1)
+        return EXIT_FAILURE;
     //printf("Inserisci nome file:\n");
     //scanf("%s", path);
     //printf("%s", path);
    // printf("Stringa:%s\n", path);
-    path = "Appuntamenti.txt";
+    path = argv[1];
+    printf("Argomento inviato: %s", path);
 
     /* Open file */
     FILE *file = fopen(path, "r");
@@ -44,4 +45,38 @@ int main(int argc, char **argv)
         return EXIT_FAILURE;
         perror(path);
     }
+}
+
+typedef struct {
+    int year;
+    int month;
+    int day;
+} DATE;
+
+DATE parse_string(char* s)
+{
+    const char* SEP = "/";
+    char *token = strtok(s, SEP);
+    char *month = strtok(NULL, SEP);
+    char *year = strtok(NULL, SEP);
+    int year_num = atoi(year);
+    int month_num = atoi(month);
+    int day_num = atoi(token);
+
+    DATE data = {year_num, month_num, day_num};
+    return data;
+}
+
+void print_date(DATE d)
+{
+    printf("%d/%d/%d\n", d.day, d.month, d.year);
+}
+int main(int argc, char **argv)
+{
+   char string[50] = "12/11/2021";
+   // Extract the first token
+    DATE appointment_date = parse_string(string);
+    print_date(appointment_date);
+
+   return 0;
 }

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653062852 source:c:\users\gx1unina\documents\github\corsoelementiinformatica\lezione7\stringa_to_struct\stringa_to_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
